@@ -1,0 +1,36 @@
+body{
+    background-color: beige;
+}
+#heading{
+    background-color:rgb(235, 233, 144);
+    border: 2px solid rgb(235, 233, 144);
+    border-radius: 23px;
+    justify-content: center;
+    text-align: center;
+}
+#heading h1,h2,h3{
+    display: grid;
+}
+.center{
+    justify-content: center;
+    text-align: center;
+}
+.About{
+    border: 2px Solid rgb(235, 233, 144);
+    border-radius: 23px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(235, 233, 144);
+}
+#About{
+    max-height: 100px;
+    overflow: auto;
+}
+#AboutCareer{
+    max-height: 150px;
+    overflow: auto;
+}
+#thumbnail img{
+    width:100%;
+    height:100%;
+}
